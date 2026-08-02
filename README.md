@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![MSc](https://img.shields.io/badge/MSc-Research-orange)
 
+## Introduction
+
 A research-oriented benchmark for 24-hour PM2.5 forecasting using multimodal environmental data and state-of-the-art deep learning architectures.
 
 This project was developed as part of my MSc dissertation in Artificial Intelligence at the University of Surrey. It integrates ground-based air-quality observations, meteorological reanalysis data, and satellite-derived aerosol information to evaluate multiple deep learning architectures in data-scarce regions.
