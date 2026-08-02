@@ -79,8 +79,6 @@ Model performance was evaluated using:
 - Satellite AOD data improved forecasting accuracy across multiple cities.
 - Performance was assessed using RMSE, NRMSE, MAE, R², and Pearson Correlation.
 
-## Repository Contents
-
 ## Requirements
 
 - Python 3.8+
