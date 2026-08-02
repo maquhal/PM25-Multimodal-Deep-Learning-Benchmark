@@ -73,6 +73,14 @@ Model performance was evaluated using:
 
 The 1D-CNN achieved the most reliable overall forecasting performance, outperforming several more complex recurrent, graph-based, and state-space architectures across most experimental settings.
 
+## Key Results
+
+- Evaluated seven deep learning architectures for 24-hour PM2.5 forecasting.
+- 1D-CNN achieved the best overall forecasting performance.
+- Multimodal learning consistently outperformed single-source approaches.
+- Aerosol Optical Depth (AOD) data improved forecasting accuracy across multiple cities.
+- Performance was evaluated using RMSE, MAE, R², and Pearson Correlation.
+
 ## Repository Contents
 
 ```text
