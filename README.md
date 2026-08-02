@@ -81,18 +81,6 @@ Model performance was evaluated using:
 
 ## Repository Contents
 
-```text
-PM25-Multimodal-Deep-Learning-Benchmark/
-├── Multimodal_PM25_Benchmark.ipynb
-├── mamba_with_aod.py
-├── mamba_without_aod.py
-├── mamba_gnn_with_aod.py
-├── mamba_gnn_without_aod.py
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
-
 ## Requirements
 
 - Python 3.8+
