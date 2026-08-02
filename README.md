@@ -132,11 +132,9 @@ jupyter notebook Multimodal_PM25_Benchmark.ipynb
 
 ## Dissertation
 
-**Title**
+**A Benchmark of Deep Neural Network Models for PM2.5 Forecasting Using Multimodal Data: A Case Study in Africa and the Middle East**
 
-*A Benchmark of Deep Neural Network Models for PM2.5 Forecasting Using Multimodal Data: A Case Study in Africa and the Middle East*
-
-University of Surrey, 2025
+*MSc Dissertation, University of Surrey, 2025*
 
 ## Citation
 
