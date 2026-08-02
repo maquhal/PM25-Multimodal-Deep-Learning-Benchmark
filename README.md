@@ -138,6 +138,20 @@ jupyter notebook Multimodal_PM25_Benchmark.ipynb
 
 University of Surrey, 2025
 
+## Citation
+
+If you use this repository in your research, please cite:
+
+```bibtex
+@mastersthesis{quhal2025pm25,
+  author = {Mohammed A. Quhal},
+  title = {A Benchmark of Deep Neural Network Models for PM2.5 Forecasting Using Multimodal Data: A Case Study in Africa and the Middle East},
+  school = {University of Surrey},
+  year = {2025},
+  type = {MSc Dissertation}
+}
+```
+
 ## Author
 
 **Mohammed A. Quhal**
