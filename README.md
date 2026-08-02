@@ -1,6 +1,11 @@
 # PM2.5 Multimodal Deep Learning Benchmark
 
-A multimodal deep learning benchmark for 24-hour PM2.5 forecasting across selected cities in Africa and the Middle East.
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![MSc](https://img.shields.io/badge/MSc-Research-orange.svg)
+
+A research-oriented benchmark for 24-hour PM2.5 forecasting using multimodal environmental data and state-of-the-art deep learning architectures.
 
 This project was developed as part of my MSc dissertation in Artificial Intelligence at the University of Surrey. It integrates ground-based air-quality observations, meteorological reanalysis data, and satellite-derived aerosol information to evaluate multiple deep learning architectures in data-scarce regions.
 
