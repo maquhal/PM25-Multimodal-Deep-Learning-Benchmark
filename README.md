@@ -69,17 +69,13 @@ Model performance was evaluated using:
 - Coefficient of Determination (R²)
 - Pearson Correlation Coefficient
 
-## Key Finding
-
-The 1D-CNN achieved the most reliable overall forecasting performance, outperforming several more complex recurrent, graph-based, and state-space architectures across most experimental settings.
-
 ## Key Results
 
 - Evaluated seven deep learning architectures for 24-hour PM2.5 forecasting.
 - 1D-CNN achieved the best overall forecasting performance.
-- Multimodal learning consistently outperformed single-source approaches.
-- Aerosol Optical Depth (AOD) data improved forecasting accuracy across multiple cities.
-- Performance was evaluated using RMSE, MAE, R², and Pearson Correlation.
+- Multimodal learning outperformed single-source approaches.
+- Satellite AOD data improved forecasting accuracy across multiple cities.
+- Performance was assessed using RMSE, NRMSE, MAE, R², and Pearson Correlation.
 
 ## Repository Contents
 
@@ -144,16 +140,17 @@ pip install -r requirements.txt
 jupyter notebook Multimodal_PM25_Benchmark.ipynb
 ```
 
-## MSc Dissertation
+## Dissertation
 
-**A Benchmark of Deep Neural Network Models for PM2.5 Forecasting Using Multimodal Data: A Case Study in Africa and the Middle East**
+**Title**
 
-MSc Artificial Intelligence  
+*A Benchmark of Deep Neural Network Models for PM2.5 Forecasting Using Multimodal Data: A Case Study in Africa and the Middle East*
+
 University of Surrey, 2025
 
 ## Author
 
 **Mohammed A. Quhal**
 
-- GitHub: [maquhal](https://github.com/maquhal)
-- LinkedIn: [maquhal](https://www.linkedin.com/in/maquhal)
+- GitHub: https://github.com/maquhal
+- LinkedIn: https://linkedin.com/in/maquhal
