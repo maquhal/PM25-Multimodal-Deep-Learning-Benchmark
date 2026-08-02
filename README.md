@@ -1,0 +1,146 @@
+# PM2.5 Multimodal Deep Learning Benchmark
+
+A multimodal deep learning benchmark for 24-hour PM2.5 forecasting across selected cities in Africa and the Middle East.
+
+This project was developed as part of my MSc dissertation in Artificial Intelligence at the University of Surrey. It integrates ground-based air-quality observations, meteorological reanalysis data, and satellite-derived aerosol information to evaluate multiple deep learning architectures in data-scarce regions.
+
+## Research Objective
+
+The project investigates how different deep learning architectures perform when forecasting PM2.5 concentrations using multimodal environmental data.
+
+The study focuses on:
+
+- Comparing baseline and advanced deep learning models.
+- Evaluating performance across African and Middle Eastern cities.
+- Assessing the contribution of satellite Aerosol Optical Depth (AOD) data.
+- Identifying an effective model for 24-hour PM2.5 forecasting.
+
+## Data Sources
+
+The multimodal framework integrates:
+
+- **Air-quality data:** PM2.5 observations from OpenAQ.
+- **Meteorological data:** ERA5 reanalysis variables.
+- **Satellite data:** Aerosol Optical Depth (AOD) from the Copernicus Atmosphere Data Store.
+
+The selected cities include:
+
+- Riyadh
+- Dhahran
+- Dubai
+- Pretoria
+- Potchefstroom
+- Siavonga
+
+## Models Evaluated
+
+Seven deep learning architectures were evaluated:
+
+1. Multi-Layer Perceptron (MLP)
+2. One-Dimensional Convolutional Neural Network (1D-CNN)
+3. Bidirectional Long Short-Term Memory (BiLSTM)
+4. LSTM–RNN
+5. Graph Neural Network (GNN)
+6. Mamba State-Space Model
+7. GNN–Mamba
+
+## Experimental Setup
+
+- Input sequence: 168 hourly observations
+- Forecast horizon: 24 hours
+- Temporal split:
+  - 80% training
+  - 10% validation
+  - 10% testing
+- Experiments conducted both with and without satellite AOD data.
+
+## Evaluation Metrics
+
+Model performance was evaluated using:
+
+- Root Mean Squared Error (RMSE)
+- Normalized Root Mean Squared Error (NRMSE)
+- Mean Absolute Error (MAE)
+- Coefficient of Determination (R²)
+- Pearson Correlation Coefficient
+
+## Key Finding
+
+The 1D-CNN achieved the most reliable overall forecasting performance, outperforming several more complex recurrent, graph-based, and state-space architectures across most experimental settings.
+
+## Repository Contents
+
+```text
+PM25-Multimodal-Deep-Learning-Benchmark/
+├── Multimodal_PM25_Benchmark.ipynb
+├── mamba_with_aod.py
+├── mamba_without_aod.py
+├── mamba_gnn_with_aod.py
+├── mamba_gnn_without_aod.py
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
+## Requirements
+
+- Python 3.8+
+- NumPy
+- Pandas
+- SciPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- tqdm
+- TensorFlow
+- PyTorch
+- PyTorch Geometric
+- Transformers
+- Mamba-SSM
+- ONNX
+
+Install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/maquhal/PM25-Multimodal-Deep-Learning-Benchmark.git
+```
+
+2. Enter the repository:
+
+```bash
+cd PM25-Multimodal-Deep-Learning-Benchmark
+```
+
+3. Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Open the main notebook:
+
+```bash
+jupyter notebook Multimodal_PM25_Benchmark.ipynb
+```
+
+## MSc Dissertation
+
+**A Benchmark of Deep Neural Network Models for PM2.5 Forecasting Using Multimodal Data: A Case Study in Africa and the Middle East**
+
+MSc Artificial Intelligence  
+University of Surrey, 2025
+
+## Author
+
+**Mohammed A. Quhal**
+
+- GitHub: [maquhal](https://github.com/maquhal)
+- LinkedIn: [maquhal](https://www.linkedin.com/in/maquhal)
