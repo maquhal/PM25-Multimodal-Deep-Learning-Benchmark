@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+tensorflow
+torch
+torch-geometric
+transformers
+mamba-ssm
+onnx
+jupyter
