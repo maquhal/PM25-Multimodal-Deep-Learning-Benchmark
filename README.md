@@ -1,9 +1,9 @@
 # PM2.5 Multimodal Deep Learning Benchmark
 
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![MSc](https://img.shields.io/badge/MSc-Research-orange.svg)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+![MSc](https://img.shields.io/badge/MSc-Research-orange)
 
 A research-oriented benchmark for 24-hour PM2.5 forecasting using multimodal environmental data and state-of-the-art deep learning architectures.
 
